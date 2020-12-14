@@ -1,0 +1,194 @@
+/*General Site rules*/
+
+body {
+    background-color: white;
+    font: 1.25em 'Dawning of a New Day', cursive;
+/*    font-family: 'Bentham', serif;*/
+    background-image: url(img/indeximage.jpg);
+    background-size: cover;
+    
+   
+    
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.5rem
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+figcaption {
+    font-size: 1.75rem;
+}
+
+
+.mybackground1 {
+    background-image: url(.../img/indeximage.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.space-tb {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.heading-spacing {
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+    
+}
+
+.masthead {
+    background-color: white;
+    padding-top: 5rem;
+}
+
+.ref-masthead {
+    background-color: white;
+    padding-top: 0;
+}
+
+.ref-masthead img {
+    max-width: 25%;
+}
+
+.mybackground1,
+.mybackground3,
+.mybackground5,
+.mybackground7,
+.mybackground9,
+.mybackground11{
+    background-color:antiquewhite;
+    color: black;
+}
+
+.mybackground2,
+.mybackground4,
+.mybackground6,
+.mybackground8,
+.mybackground10{
+    background-color:antiquewhite;
+    color: black;
+}
+
+
+
+/*Reflections page rules*/
+
+.essay {
+    font-size: 1.1rem;
+    margin: 0 3rem 0 3rem;
+    font-family: 'Bentham', serif;
+}
+
+.essay-thumb {
+    margin: 2rem;
+}
+
+.site-title {
+    left: 20vw;
+    position: absolute;
+    top: 50vh;
+}
+
+.ref-nav {
+    background-color: antiquewhite;
+    
+    
+}
+
+/*
+.ref-nav a:link {
+    color: red;
+}
+*/
+
+.nav-item a{
+    color: black;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+/*
+.nav-icon {
+    margin: 1rem; 
+}
+*/
+
+a:hover {
+    filter:opacity(50%);
+}
+
+.ftr {
+    color: black;
+    font-size: 1.10rem;
+    background-color: floralwhite;
+    padding-bottom: 4rem;
+}
+
+/*Welcome page rules*/
+
+.title-text {
+    background-color: none;
+    color:floralwhite;
+    font-size: 4rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 2rem 0 2rem;
+    
+}
+
+.title-text:hover {
+    color: black;
+}
+
+
+
+.course-text {
+    background-color: none;
+    color: floralwhite;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0 2rem 0 4rem;
+    
+}
+
+.course-text:hover {
+    color: black;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+/*
+.background-image {
+    background: (img/indeximage.png);
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    width: auto;
+    z-index: -100;
+}
+*/
